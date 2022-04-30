@@ -1,8 +1,7 @@
-[![JitPack](https://img.shields.io/jitpack/v/github/developersancho/FragmentNavigation.svg?style=for-the-badge)](https://jitpack.io/#adrielcafe/kaptain)
-[![Android API](https://img.shields.io/badge/api-23%2B-yellowgreen.svg?style=for-the-badge)](https://android-arsenal.com/api?level=14)
+[![Android API](https://img.shields.io/badge/api-23%2B-yellowgreen.svg?style=for-the-badge)](https://android-arsenal.com/api?level=23)
 [![Kotlin](https://img.shields.io/github/languages/top/developersancho/FragmentNavigation.svg?style=for-the-badge&color=orange)](https://kotlinlang.org/)
-[![ktlint](https://img.shields.io/badge/code%20style-%E2%9D%A4-FF4081.svg?style=for-the-badge)](https://ktlint.github.io/)
-[![License MIT](https://img.shields.io/github/license/developersancho/FragmentNavigation.svg?style=for-the-badge&color=yellow)](https://opensource.org/licenses/MIT)
+[![Maven metadata URL](https://img.shields.io/maven-metadata/v?color=blue&metadataUrl=https://s01.oss.sonatype.org/service/local/repo_groups/public/content/io/github/developersancho/FragmentNavigation/maven-metadata.xml&style=for-the-badge)](https://maven-badges.herokuapp.com/maven-central/io.github.developersancho/fragmentnavigation)
+[![License Apache 2.0](https://img.shields.io/github/license/developersancho/FragmentNavigation.svg?style=for-the-badge&color=orange)](https://opensource.org/licenses/Apache-2.0)
 
 # FragmentNavigation
 
@@ -11,13 +10,13 @@ navigate between fragments spread over several modules.
 
 ## Import to your project
 
-1. Add the JitPack repository in your root build.gradle or settings.gradle at the end of
+1. Add the MavenCentral repository in your root build.gradle or settings.gradle at the end of
    repositories:
 
 ```gradle
 allprojects {
     repositories {
-        maven { url 'https://jitpack.io' }
+       mavenCentral()
     }
 }
 ```
@@ -30,19 +29,18 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://jitpack.io' }
     }
 }
 ```
 
 Current
-version: [![JitPack](https://jitpack.io/v/developersancho/FragmentNavigation.svg?style=flat-square)](https://jitpack.io/#developersancho/FragmentNavigation)
+version: [![Maven metadata URL](https://img.shields.io/maven-metadata/v?color=blue&metadataUrl=https://s01.oss.sonatype.org/service/local/repo_groups/public/content/io/github/developersancho/FragmentNavigation/maven-metadata.xml&style=for-the-badge)](https://maven-badges.herokuapp.com/maven-central/io.github.developersancho/fragmentnavigation)
 
 2. Next, add the library to your module:
 
 ```gradle
 dependencies {
-    implementation "com.github.developersancho:FragmentNavigation:$currentVersion"
+    implementation "com.github.developersancho:fragmentnavigation:$currentVersion"
 }
 ```
 

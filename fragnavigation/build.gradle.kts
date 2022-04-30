@@ -1,10 +1,16 @@
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
-    `maven-publish`
+    id("com.vanniktech.maven.publish")
 }
 
 android {
+    plugins.withId("com.vanniktech.maven.publish") {
+        mavenPublish {
+            sonatypeHost = com.vanniktech.maven.publish.SonatypeHost.S01
+        }
+    }
+
     compileSdk = 32
 
     defaultConfig {
@@ -36,13 +42,6 @@ android {
             excludes += "META-INF/*"
         }
     }
-
-    publishing {
-        singleVariant("release") {
-            withSourcesJar()
-            withJavadocJar()
-        }
-    }
 }
 
 dependencies {
@@ -52,24 +51,4 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.3")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.4.0")
-}
-
-publishing {
-    publications {
-        create<MavenPublication>("release") {
-            groupId = "com.github.developersancho"
-            artifactId = "FragmentNavigation"
-            version = "1.0.0-alpha2"
-
-            afterEvaluate {
-                from(components["release"])
-            }
-        }
-    }
-    repositories {
-        maven {
-            name = "myrepo"
-            url = uri("${projectDir}/repo")
-        }
-    }
 }
