@@ -57,4 +57,5 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.4.0")
 
     implementation("com.github.developersancho:FragmentNavigation:1.0.0-alpha")
+    //implementation("io.github.developersancho:fragmentnavigation:1.0.0")
 }
