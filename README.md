@@ -1,6 +1,6 @@
 [![Android API](https://img.shields.io/badge/api-23%2B-yellowgreen.svg?style=for-the-badge)](https://android-arsenal.com/api?level=23)
 [![Kotlin](https://img.shields.io/github/license/developersancho/fragmentnavigation.svg?style=for-the-badge&color=orange)](https://kotlinlang.org/)
-[![Maven metadata URL](https://img.shields.io/maven-metadata/v?color=blue&metadataUrl=https://s01.oss.sonatype.org/service/local/repo_groups/public/content/io/github/developersancho/FragmentNavigation/maven-metadata.xml&style=for-the-badge)](https://maven-badges.herokuapp.com/maven-central/io.github.developersancho/fragmentnavigation)
+[![Maven metadata URL](https://img.shields.io/maven-metadata/v?color=blue&metadataUrl=https://s01.oss.sonatype.org/service/local/repo_groups/public/content/io/github/developersancho/fragmentnavigation/maven-metadata.xml&style=for-the-badge)](https://maven-badges.herokuapp.com/maven-central/io.github.developersancho/fragmentnavigation)
 [![License Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-orange.svg?style=for-the-badge)](https://opensource.org/licenses/Apache-2.0)
 # FragmentNavigation
 
@@ -34,7 +34,7 @@ dependencyResolutionManagement {
 
 Current version: 
 
-[![Maven metadata URL](https://img.shields.io/maven-metadata/v?color=blue&metadataUrl=https://s01.oss.sonatype.org/service/local/repo_groups/public/content/io/github/developersancho/FragmentNavigation/maven-metadata.xml&style=for-the-badge)](https://maven-badges.herokuapp.com/maven-central/io.github.developersancho/fragmentnavigation)
+[![Maven metadata URL](https://img.shields.io/maven-metadata/v?color=blue&metadataUrl=https://s01.oss.sonatype.org/service/local/repo_groups/public/content/io/github/developersancho/fragmentnavigation/maven-metadata.xml&style=for-the-badge)](https://maven-badges.herokuapp.com/maven-central/io.github.developersancho/fragmentnavigation)
 
 2. Next, add the library to your module:
 
