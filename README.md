@@ -32,14 +32,15 @@ dependencyResolutionManagement {
 }
 ```
 
-Current
-version: [![Maven metadata URL](https://img.shields.io/maven-metadata/v?color=blue&metadataUrl=https://s01.oss.sonatype.org/service/local/repo_groups/public/content/io/github/developersancho/FragmentNavigation/maven-metadata.xml&style=for-the-badge)](https://maven-badges.herokuapp.com/maven-central/io.github.developersancho/fragmentnavigation)
+Current version: 
+
+[![Maven metadata URL](https://img.shields.io/maven-metadata/v?color=blue&metadataUrl=https://s01.oss.sonatype.org/service/local/repo_groups/public/content/io/github/developersancho/FragmentNavigation/maven-metadata.xml&style=for-the-badge)](https://maven-badges.herokuapp.com/maven-central/io.github.developersancho/fragmentnavigation)
 
 2. Next, add the library to your module:
 
 ```gradle
 dependencies {
-    implementation "com.github.developersancho:fragmentnavigation:$currentVersion"
+    implementation("io.github.developersancho:fragmentnavigation:$currentVersion")
 }
 ```
 
